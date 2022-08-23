@@ -53,3 +53,6 @@ def detalle_producto(request,id):
         producto.delete()
         return Response(status= status.HTTP_204_NO_CONTENT)
     
+    
+    
+    
